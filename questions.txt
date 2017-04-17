@@ -1,0 +1,28 @@
+1.What approaches did you use when completing the challenge? Do you use any CSS methodologies or techniques to help this approach?
+
+	> I have used flex-box layout model along with media queries to achieve responsive design on mobile, tablet and desktop platform. 
+	Yes , i have followed SMACSS css methodology.
+
+
+2.If you had more time to spend on the challenge, what would you like to add to your solution?
+
+	> I would have developed 
+		* Toggle logic for User/Obj Switch Button
+		* functionality for 'Automatic Update', 'Add Learning objective', 'show details'
+		* An SPA app using Angularjs/react.js with grunt/gulp task manager.
+		* Unit test case for all JS code base.
+		* Interactive documentation  for code base using ngdoc.
+
+3.What browsers should your solution work in? What will happen if we test it in older browsers?
+
+	> My solution works in Chrome 29+, Firefox 28+, Safari 6.1+, IE 10+
+
+
+4.What's your favourite programming language? Why?
+	
+	> Javascript is my favourite language, because i love the way it has been built. its dynamically typed architecture with flexible nature gives greater control over the things that are built using it.
+	since JS architecture doesnt enforce lot of standards or technique on to the user, it makes it easier to develop great things with it, be it a framework or library.
+
+	I find it very easy to code in Javascript than any other languages since it doesnt have any complex methodologies.
+
+	Also syntactically its very easy to work with, now that  ES6 has released,the syntax is very similier to that of other Object Oriented languages like java or c#.

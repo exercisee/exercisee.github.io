@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Front End Challenge</title>
+  <link rel="stylesheet" type="text/css" href="css/snappet.css" >
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+ <script type="text/javascript" src="js/snappet.js"></script>
+ <header>
+    <div class="title">Dashboard / Snappet /</div>
+    <div class="main-header"><img class="header-icon" src="assets/icons/gift.svg" alt="gift">Front-End Challenge</div>
+</header>
+<div class="l-details">
+    <div class="l-details-controls">
+        <div class="filter">
+            <div class="user-filter-btn">
+                <button class="btn obj-icon user-obj-switch-btn  btn-obj is-selected"></button>
+                <button class="btn user-icon user-obj-switch-btn  btn-user"></button>
+                <select  class="grade-filter">
+                    <option value="m3">Math Grade 3</option>
+                    <option value="m4">Math Grade 4</option>
+                    <option value="m5">Math Grade 5</option>
+                </select>
+            </div>
+        </div>
+        <div class="add-obj">
+            <button class="btn btn-add-obj btn-background plus-icon">Add Learning Objective</button>
+        </div>
+        <div class="auto-update">
+            <button class="btn btn-auto-update btn-background refresh-icon">Automatic Update</button>
+        </div>
+    </div>
+    <div class="l-details-header divider">
+
+        <div class="objectives text-wrap">
+            <div><span>Learning Objective </span><img class ="small-icon" src="assets/icons/down.svg" alt="Learning Objective" /></div>
+        </div>
+        <div class="pupils text-wrap">
+            Pupils
+        </div>
+        <div class="show-details">
+        </div>
+    </div>
+    <div id="m3-results">
+        <div class="l-details-data divider">
+
+            <div class="objectives text-wrap">
+                301 . The place value of 2 in 2548
+            </div>
+            <div class="pupils ">
+                <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+                <span class="small-ball blue"></span><span class="small-ball blue"></span>
+                <span class="small-ball blue"></span><span class="small-ball blue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+            </div>
+            <div class="show-details ">
+                <button class="btn show-details-btn">Show Details</button>
+            </div>
+        </div>
+        <div class="l-details-data divider">
+
+            <div class="objectives text-wrap">
+                302. 3 digit number is the predecessor of the smallest 4- digit number.
+            </div>
+            <div class="pupils ">
+                <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+                <span class="small-ball blue"></span><span class="small-ball blue"></span>
+                <span class="small-ball blue"></span><span class="small-ball blue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball orange"></span><span class="small-ball orange"></span>
+                <span class="small-ball orange"></span><span class="small-ball orange"></span>
+                <span class="small-ball orange"></span><span class="small-ball orange"></span>
+
+
+            </div>
+            <div class="show-details">
+                <button class="btn show-details-btn">Show Details</button>
+            </div>
+        </div>
+        <div class="l-details-data">
+
+            <div class="objectives text-wrap">
+                303. The difference between the face values of 5 and 3 in 3052
+            </div>
+            <div class="pupils ">
+                <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+                <span class="small-ball blue"></span><span class="small-ball blue"></span>
+                <span class="small-ball blue"></span><span class="small-ball blue"></span>
+
+                <span class="small-ball blue"></span><span class="small-ball blue"></span>
+                <span class="small-ball blue"></span><span class="small-ball blue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+                <span class="small-ball orange"></span><span class="small-ball orange"></span>
+                <span class="small-ball orange"></span><span class="small-ball orange"></span>
+            </div>
+            <div class="show-details">
+                <button class="btn show-details-btn">Show Details</button>
+            </div>
+        </div>
+    </div>
+    <div id="m4-results">
+        <div class="l-details-data divider">
+
+            <div class="objectives text-wrap">
+                401 . The graphs of the two linear equations ax + by = c and bx - ay = c, where a, b and c are all not equal to zero
+            </div>
+            <div class="pupils ">
+               <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+               <span class="small-ball blue"></span><span class="small-ball blue"></span>
+               <span class="small-ball blue"></span><span class="small-ball blue"></span>
+               <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+               <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+               <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+               <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+               <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+               <span class="small-ball orange"></span><span class="small-ball orange"></span>
+               <span class="small-ball orange"></span><span class="small-ball orange"></span>
+           </div>
+           <div class="show-details ">
+            <button class="btn show-details-btn">Show Details</button>
+        </div>
+    </div>
+    <div class="l-details-data divider">
+
+        <div class="objectives text-wrap">
+            402. The three solutions of the equation f(x) = 0 are -2, 0, and 3. Therefore, the three solutions of the equation f(x - 2) = 0.
+        </div>
+        <div class="pupils ">
+            <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>                                       <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+            <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+            <span class="small-ball orange"></span><span class="small-ball orange"></span>
+            <span class="small-ball orange"></span><span class="small-ball orange"></span>
+            <span class="small-ball orange"></span><span class="small-ball orange"></span>
+
+
+        </div>
+        <div class="show-details">
+            <button class="btn show-details-btn">Show Details</button>
+        </div>
+    </div>
+    <div class="l-details-data">
+
+        <div class="objectives text-wrap">
+            403. If f(x) is an odd function, then | f(x) | is
+        </div>
+        <div class="pupils ">
+            <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball blue"></span><span class="small-ball blue"></span>
+            <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+            <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+        </div>
+        <div class="show-details">
+            <button class="btn show-details-btn">Show Details</button>
+        </div>
+    </div>
+</div>
+<div id="m5-results">
+    <div class="l-details-data divider">
+
+        <div class="objectives text-wrap">
+            501 . If Logx (1 / 8) = - 3 / 2, then x is equal to
+        </div>
+        <div class="pupils ">
+           <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+           <span class="small-ball blue"></span><span class="small-ball blue"></span>
+           <span class="small-ball blue"></span><span class="small-ball blue"></span>
+           <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+           <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+           <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+           <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+           <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+           <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+           <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+           <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+       </div>
+       <div class="show-details ">
+        <button class="btn show-details-btn">Show Details</button>
+    </div>
+</div>
+<div class="l-details-data divider">
+
+    <div class="objectives text-wrap">
+        502. If Log 4 (x) = 12, then log 2 (x / 4) is equal to 
+    </div>
+    <div class="pupils ">
+        <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+        <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+        <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+        <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+        <span class="small-ball orange"></span><span class="small-ball orange"></span>
+        <span class="small-ball orange"></span><span class="small-ball orange"></span>
+        <span class="small-ball orange"></span><span class="small-ball orange"></span>
+
+
+    </div>
+    <div class="show-details">
+        <button class="btn show-details-btn">Show Details</button>
+    </div>
+</div>
+<div class="l-details-data">
+
+    <div class="objectives text-wrap">
+        503. The three solutions of the equation f(x) = 0 are -2, 0, and 3. Therefore, the three solutions of the equation f(x - 2) = 0 
+    </div>
+    <div class="pupils ">
+        <span class="small-ball blue"></span> <span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball blue"></span><span class="small-ball blue"></span>
+        <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+        <span class="small-ball lightblue"></span><span class="small-ball lightblue"></span>
+    </div>
+    <div class="show-details">
+        <button class="btn show-details-btn">Show Details</button>
+    </div>
+</div>
+</div>       
+</div>
+
+</body>
+</html>
